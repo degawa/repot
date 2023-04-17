@@ -3,7 +3,7 @@ Abstract data types designed for the repository pattern for reading configuratio
 
 The repository pattern is a design pattern that makes an object persistent in a repository and reconstructs it from the repository. I understand that the repository pattern abstracts files or databases and encapsulates operations on them.
 
-Based on that understanding, this and another repository provide a practical example of the repository pattern. This repository defines user-defined types for reading content from a repository, an abstracted file. The intended use is to extend one of the abstract data types depending on a problem.
+Based on that understanding, this and [another repository](https://github.com/degawa/repot_examples.git) provide a practical example of the repository pattern. This repository defines user-defined types for reading content from a repository, an abstracted file. The intended use is to extend one of the abstract data types depending on a problem.
 
 - `base_repository_atype` can read scalar values of
     - 4-byte integer number
